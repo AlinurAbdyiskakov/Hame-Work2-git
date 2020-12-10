@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+body{
+    background-color: black;
+
+}
+
+.container{
+  
+    max-width: 672px;
+    margin: 0 auto;
+    color: white;
+}
+.my1 {
+    display: flex;
+    align-items: flex-start;
+    
+}
+nav {
+    margin-left:  360px;
+    margin-top: 25px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+   
+    list-style-type: none;
+    color: white;
+    margin-right: 5px;
+}
+a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: inherit;
+}
