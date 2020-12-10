@@ -5,8 +5,9 @@
 
 
 html,body{
-    background-color: black;
+    background-color: #333;
     height: 100%;width: 100%;
+    overflow: hidden;
 }
 
 .container{
@@ -36,11 +37,19 @@ nav {
     margin-right: 10px;
 }
 a{
-    color: white;
+    color: rgba(255, 255, 255, .5);
     margin-right: 10px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif
     
+}
+.sitbor{
+    color: white;
+    border-bottom: solid 5px white;
+}
+.list a:hover{
+    color: white;
+    border-bottom: solid 5px rgba(255, 255, 255, .5);
 }
 main{
     text-align: center;
@@ -49,7 +58,7 @@ main{
 main p{
     text-align: center;
     width: 450px;
-    font-weight: bold;
+    font-weight:300px;
 }
 main button{
     padding: 10px;
@@ -66,3 +75,16 @@ main button{
     height: 60%;
     line-height: 1.5;
 }
+.footer_bottom{
+    color: rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38%;
+}
+@media (max-width:676px){
+    .my1{
+      flex-wrap: wrap;
+  }
+    
+ } 
