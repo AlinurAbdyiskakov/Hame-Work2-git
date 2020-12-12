@@ -30,7 +30,7 @@ nav {
 .list {
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+
    
     list-style-type: none;
     color: white;
@@ -51,6 +51,9 @@ a{
     color: white;
     border-bottom: solid 5px rgba(255, 255, 255, .5);
 }
+.list a:focus{
+    border-bottom: 4px solid gray;
+}
 main{
     text-align: center;
     color: white;
@@ -61,7 +64,7 @@ main p{
     font-weight:300px;
 }
 main button{
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     border: 1px solid black;
     border-radius: 5px;
@@ -82,9 +85,33 @@ main button{
     align-items: center;
     height: 38%;
 }
+footer .blog{
+  
+    color: white;
+}
+footer .blog:hover{
+    text-decoration: underline;
+}
+.my1 h1{
+    flex: 1 1 50px;
+}
+.my1 nav {
+    flex:1 1 50px;
+}
 @media (max-width:676px){
     .my1{
+        flex: 1 1 100%;
       flex-wrap: wrap;
   }
     
  } 
+ @media (max-width: 676px) {
+      h2 {
+        margin-left: 200px;
+     }
+     nav {
+margin-left:-160px;
+margin-top: 50px;
+     }
+ }
+
